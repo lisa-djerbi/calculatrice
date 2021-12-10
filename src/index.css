@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.calculatrice
+{
+  border : 2px outset #282c34;
+  background-color: #61dafb;
+  margin-left: auto;
+  margin-right: auto;
+  width : 40%
+}
+
+.operations
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width : 100px;
+}
+
+button{
+  width : 20px;
+}
